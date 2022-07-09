@@ -4,7 +4,9 @@ Quando se trabalha com matrizes, é frequente a dificuldade de se resolver probl
 
 Na fatoração QR, uma matriz $A$ é repartida em duas outras matrizes: $Q$, uma matriz ortogonal, e $R$, uma matriz triangular superior. As propriedades oferecidas por esses dois tipos de matrizes podem ser bastante úteis em muitos casos, como na aproximação de retas via Mínimos Quadrados, por exemplo.
 
-O programa contido neste repositório objetiva oferecer as matrizes $Q$ e $R$ se utilizando de três métodos diferentes: Gram-Schmidt Clássico, Gram-Schmidt Modificado e Reflexões de Householder. As referências utilizadas e o relatório deste projeto podem ser encontradas em [LINK].
+O programa contido neste repositório objetiva oferecer as matrizes $Q$ e $R$ se utilizando de três métodos diferentes: Gram-Schmidt Clássico, Gram-Schmidt Modificado e Reflexões de Householder. As referências utilizadas e o relatório deste projeto podem ser encontradas em [LINK]. 
+
+Foi feita uma versão Web utilizando <a href="https://pyscript.net/">PyScript</a>, que pode ser acessada <a href="https://potalej.github.io/fatoracao-QR-web/">aqui</a>
 
 ## Rodando
 
