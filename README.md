@@ -24,7 +24,7 @@ tabelaMargens(A, Q, R, normas={
 })
 ```
 
-Serão exibidas as normas $\Vert A-QR \Vert $ e $\Vert I-Q^tQ \Vert $, medindo a precisão da fatoração e a precisão da ortogonalização, respectivamente.
+Serão exibidas as normas $\Vert A-QR \Vert$ e $\Vert I-Q^tQ \Vert $, medindo a precisão da fatoração e a precisão da ortogonalização, respectivamente.
 
 ## Matrizes e funções auxiliares
 
