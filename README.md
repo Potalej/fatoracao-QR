@@ -1,4 +1,4 @@
-# Fatoração QR
+# Fatoração QR (MAP2210)
 
 Quando se trabalha com matrizes, é frequente a dificuldade de se resolver problemas quando as matrizes são cheias (ou bastante recheadas, pelo menos), gerando problemas tanto teóricos quanto técnicos. As fatorações oferecem matrizes alternativas mais simples para esses casos, e uma delas é conhecida como <i>Fatoração QR</i>.
 
