@@ -1,4 +1,4 @@
-# Fatoração QR
+# Fatoração QR (MAP2210-1sem2022)
 
 Quando se trabalha com matrizes, é frequente a dificuldade de se resolver problemas quando as matrizes são cheias (ou bastante recheadas, pelo menos), gerando problemas tanto teóricos quanto técnicos. As fatorações oferecem matrizes alternativas mais simples para esses casos, e uma delas é conhecida como <i>Fatoração QR</i>.
 
@@ -24,7 +24,7 @@ tabelaMargens(A, Q, R, normas={
 })
 ```
 
-Serão exibidas as normas $\Vert A-QR \Vert $ e $\Vert I-Q^tQ \Vert $, medindo a precisão da fatoração e a precisão da ortogonalização, respectivamente.
+Serão exibidas as normas $\Vert A-QR \Vert$ e $\Vert I-Q^tQ \Vert $, medindo a precisão da fatoração e a precisão da ortogonalização, respectivamente.
 
 ## Matrizes e funções auxiliares
 
