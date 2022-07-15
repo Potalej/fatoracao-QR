@@ -27,7 +27,7 @@ def numCond(A)->float or None:
         # se for nula, pode parar por aí porque é singular
         raise ValueError("A matriz fornecida é singular!")
     # encontra A^-1
-    invA = MatrizDict(inv(matrix(A.lista())))
+    invA = MatrizDict(inv(matrix(A.lista())).tolist())
     # calcula as normas
     norma_A = norma_Frobenius(A)
     norma_invA = norma_Frobenius(invA)
