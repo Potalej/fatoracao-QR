@@ -29,3 +29,5 @@ Serão exibidas as normas $\Vert A-QR \Vert $ e $\Vert I-Q^tQ \Vert $, medindo a
 ## Matrizes e funções auxiliares
 
 Para trabalhar com matrizes, foi utilizada uma classe disponível <a href="https://github.com/Potalej/Matrizes-Dict">aqui</a>, e no arquivo <i>matrizes_exemplos.py</i> pode-se encontrar alguns geradores de matrizes, como <a href="https://en.wikipedia.org/wiki/Magic_square">quadrados mágicos</a> e <a href="https://en.wikipedia.org/wiki/Hilbert_matrix">matrizes de Hilbert</a>.
+
+Também foi utilizado o cálculo de norma vetorial (norma 2) disponível em <i>normas.py</i>, normas matriciais (p-ésima, infinito e de Frobenius) em <i>normas_matriciais.py</i> e número de condicionamento em <i>condicionamento.py</i>.

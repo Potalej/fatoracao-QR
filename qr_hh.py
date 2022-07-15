@@ -24,5 +24,4 @@ def QR_Householder(M):
   I = MatrizDict([[1 if i==j else 0 for j in range(U.lins)] for i in range(U.lins)]) 
   # aplica a reflexão
   Q = reflexoes(U, I) # 
-  
   return Q,R
