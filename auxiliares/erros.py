@@ -7,7 +7,7 @@ def tabelaMargens(A, Q, R):
     Faz uma pequena tabela com comparações de margens de erro da ortogonalidade de `Q` e da precisão de `QR` através de algumas normas matriciais.
   """
   # cabeçalho
-  cabecalho = ["Norma", "||A - QR||", "||I - QᵗQ||"]
+  cabecalho = ["Norma", "||A - QR||", "||I - Q'Q||"]
 
   # calcula Q*R
   QR = Q*R

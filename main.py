@@ -10,12 +10,20 @@ divisor = 47*"="
 ######################################
 
 ############## ENTRADAS ##############
-M = magica(3)
-#M = hilbert(3)
-#for i in range(5): M[i,i] = 0
+print(f"{divisor}\n  FATORAÇÃO QR VIA GRAM-SCHMIDT E HOUSEHOLDER\n{divisor}\n")
+
+tipo = int(input("Entre com o número do tipo de matriz desejada:\n1 - Quadrado Mágico\n2 - Hilbert\n>>> "))
+
+tamanho = int(input("\nAgora, entre com a ordem da matriz:\n>>> "))
+
+if tipo == 1:
+  M = magica(tamanho)
+elif tipo == 2:
+  M = hilbert(tamanho)
+
 ######################################
 
-print(f"-> Matriz original: \n{M}\n")
+print(f"\n\n-> Matriz original: \n{M}\n")
 
 ############# FATORAÇÕES #############
 
